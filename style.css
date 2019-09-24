@@ -10,8 +10,21 @@ body {
   justify-content: space-around;
   line-height: 175%;
   margin: 18px auto;
-  word-spacing: 1.2px;
+  word-spacing: 1px;
   width: 1180px;
+  letter-spacing: -0.2px;
+}
+
+strong {
+  font-weight: 900;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 18px;
 }
 
 /* main flex container */
@@ -23,7 +36,7 @@ body {
   width: 500px;
 }
 
-/* styling header section and it's content */
+/* styling header section */
 header {
   align-items: center;
   display: flex;
@@ -42,12 +55,8 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  text-shadow: 0 -1px 1px #dd5555;
+  /* text-shadow: 0 -1px 1px #dd5555; */
   letter-spacing: -1.2px;
-}
-
-h3 {
-  font-size: 18px;
 }
 
 .hero-img {
@@ -65,9 +74,32 @@ h3 {
   display: inline-block;
   font-size: 16px;
   font-weight: bold;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
   letter-spacing: -1px;
   margin: -20px 0;
+  padding: 10px 10px;
+  text-align: center;
 }
+
+/* styling social section */
+ul {
+  align-items: center;
+  display: flex;
+  font-size: 15px;
+  height: 160px;
+  justify-content: center;
+}
+
+li {
+  margin: 0 15px;
+}
+
+i {
+  color: #cccccc;
+  margin-left: 22px;
+}
+
+li > a {
+  color: #cccccc;
+}
+
+/* Styling movies section */
