@@ -24,10 +24,11 @@ a {
 }
 
 h3 {
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
 }
 
-/* main flex container */
+/* main container */
 .main-container {
   background: white;
   border-radius: 3px;
@@ -103,3 +104,48 @@ li > a {
 }
 
 /* Styling movies section */
+.movies-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 660px;
+  justify-content: space-evenly;
+}
+
+.movies-container > h3 > span {
+  background-color: #d4d4d4;
+}
+
+.indiv-movie {
+  display: flex;
+  margin: 0 30px;
+}
+
+.indiv-movie > img {
+  flex-shrink: 0;
+  height: 118px;
+  margin-right: 24px;
+  width: 80px;
+}
+
+.indiv-movie > article {
+  width: 330px;
+}
+
+h4 {
+  /* font-family: "Montserrat", sans-serif; */
+  font-size: 16px;
+  letter-spacing: 0;
+  margin-bottom: 12px;
+}
+
+.movie-desc {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.movie-desc > p {
+  text-align: justify;
+}
